@@ -40,10 +40,12 @@ tl;dr:  Does not work on older versions of iOS.  Does not target audio files at 
 
 Apple changes how they save files on iOS devices every so often, so this script probably only works on recent versions of iOS.  I am not totally sure which versions, as I only wrote this to save files off a relative's iPhone and am not an iOS user myself!  He also didn't store any music on his iPhone, which is why this script doesn't currently target audio files.
 
-As for why you need lots of hard drive space, this script copies rather than renames/moves files.  So if you have a 128 GB iPhone that is nearly full, you may need up to 256 GB of free hard drive space to run this script to completion.
+As for why you need lots of hard drive space, this script copies rather than renames/moves files.  So if you have a 128 GB iPhone that is nearly full, you may need up to 256 GB of free hard drive space to run this script to completion.  If you're running this on an SSD, prepare to have it slammed with writes, but at least it'll complete quickly!  If you're running this on a hard drive, have fun waiting.  If you're running this on a RAM or 3D XPoint drive, wtf?
 
 And now for some fun copypasta, because I guarantee absolutely nothing:
 
 **THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.**
+
+Licensed under whatever the default `npm init` license is.  [ISC](https://www.isc.org/licenses/).
 
 Lastly, please remember:  "This worked on my machine!" - Me, July 8th, 2019
