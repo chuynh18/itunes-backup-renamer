@@ -4,7 +4,7 @@ itunes-backup-renamer is a quick and dirty Node.js script that renames the human
 
 ## Quick!  How do I use this?!
 
-1. Create an iTunes backup of your iOS device.
+1. Create an **unencrypted** iTunes backup of your iOS device.
 1. [Locate](https://support.apple.com/en-us/HT204215) the backup that iTunes created.  (The link provided goes to an Apple Support article on how to locate iTunes backups.  If this link is broken, then Apple has updated their support page and this script may no longer work on your iTunes backup.  But you can always consult a search engine for this info if you still want to try!)
 1. Clone this repo to your computer.  You may require [git](https://git-scm.com/).
 1. `cd` into the cloned repo and run `npm i` to install dependencies.
