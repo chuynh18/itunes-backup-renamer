@@ -12,6 +12,9 @@ itunes-backup-renamer is a quick and dirty Node.js script that renames the human
 1. Run `node main.js` in your terminal and wait for the script to finish.
 1. Your files are now sitting inside the `files` directory.
 
+## Motivation
+There are a ton of trialware and shareware apps (that look a whole lot friendlier and more polished!) that will help you recover files from your iOS device.  However, they are often limited in their capabilities until you pony up the $20 or $30 to fully unlock all their features.  I did not want to pay $20 or $30.
+
 ## What does it do?
 
 This script crawls the iTunes-created backup for jpg and mov files captured by the device's camera, along with most images and videos sent to or from the device via SMS/MMS.  It then copies them to the `files` directory under a more human-friendly name.
