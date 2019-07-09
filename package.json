@@ -1,0 +1,14 @@
+{
+  "name": "iphone-backup-crawler",
+  "version": "1.0.0",
+  "description": "Crawls iOS backups created by iTunes.  Searches for and renames specific files (images, movies) to their original filename.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CH",
+  "license": "ISC",
+  "dependencies": {
+    "sqlite3": "^4.0.9"
+  }
+}
